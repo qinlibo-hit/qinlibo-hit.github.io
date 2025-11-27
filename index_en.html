@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title> Libo Qin's Homepage </title>
+  <meta name="author" content="Libo Qin">
+  <meta name="keywords" content="Libo Qin, 覃立波, Libo Qin HIT-SZ, NLP">
+  <meta name="robots" content="index,follow">
+  <meta name="description" content="Homepage of Libo Qin">
+  <link rel="stylesheet" href="./styles.css">
+  <link href='https://fonts.googleapis.com/css?family=PT+Serif:400,700,400italic' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-134238626-1"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-134238626-1');
+  </script>
+</head>
+
+<body>
+  <div class="container content"> 
+  <main>
+  <div class="home">
+
+  <div class="mini-intro">
+  <img class="avatar" src="img/libo-qin-2025-square.jpg" alt="libo-qin-photo">
+
+  <h1 id="libo_qin">Libo Qin <span style="font-family:STFangsong">(覃立波)</span></h1>
+  
+  <code class="language-plaintext highlighter-rouge">qinlibo [at] hit.edu.cn</code>
+  <br>
+  <br>HIT-SZ Associate Professor
+  <br>School of Computer Science and Technology
+  <br>Harbin Institute of Technology, Shenzhen
+
+  <br><br><a href="https://scholar.google.com/citations?hl=en&user=8lVpK1QAAAAJ">Google Scholar</a> | <a href="index.html"><span style="font-family:STFangsong">中文主页</span></a>
+
+  <br><br>
+
+  <div id="menu">
+    <div>
+      <a href="#about">About</a>
+    </div>
+    <div>
+      <a href="#join_us">Join Us</a>
+    </div>
+    <div>
+      <a href="#talks">Invited Talks</a>
+    </div>
+    <div>
+      <a href="#supervised">Alumni</a>
+    </div>
+    <div>
+      <a href="#publications">Publications</a>
+    </div>
+    <script>
+      $(function () {
+        const current = window.location.pathname.split("/");
+        $('#menu div a').each(function(){
+          const $this = $(this);
+          // if the current path is like this link, make it active
+          if (current.indexOf($this.attr("href")) !== -1) {
+            $this.parent().addClass("now");
+          }
+        })
+      });
+    </script>
+  </div>
+
+  
+  <h3><a name="bio" id="about"></a>About me</h3>
+Libo Qin is an Associate Professor in the School of Computer Science and Technology and the Institute of Computing and Intelligence at Harbin Institute of Technology, Shenzhen. 
+
+His main research interests include natural language processing, large language models, and chain-of-thought reasoning. 
+He has published several papers in top international conferences such as TPAMI, NeurIPS, ACL, EMNLP, and AAAI. His research has been selected as one of Paper Digest's most influential papers and has received the Best Youth Paper Nomination Award at the World Artificial Intelligence Conference and the Best Paper Award at the EMNLP 2022 MMNLU Workshop. 
+He has been listed among “World's Top 2% Scientists” (by Stanford and Elsevier) and as one of the “Top 100 Rising Stars in Global Chinese AI.” He also serves as (Senior) Area Chair or Senior Program Committee Member for top conferences including ICLR, ACL, EMNLP, NAACL, ACL Rolling Review, AAAI, and IJCAI.
+
+
+<h3><a id="join_us"></a>Join Us</h3>
+<div style="margin-bottom: 10px;">
+  📌<span style="color:orangered;">We welcome highly motivated students who are passionate about artificial intelligence, natural language processing, large language models, and chain-of-thought reasoning to join our group.</span> <br>
+    A limited number of RA positions are available. Outstanding students may receive internship recommendations at top tech companies (e.g., Tencent, Baidu, Alibaba, and Huawei) or guidance for pursuing PhD studies abroad at top universities in Singapore, the United States, Canada, and other countries.
+</div>
+
+<div>
+  <strong>📧 Contact:</strong> qinlibo [at] hit.edu.cn
+</div>
+
+
+  <h3 id="talks">Invited Talks</h3>
+  <div style="max-height: 300px; overflow-y: auto;">
+    <ul>
+      <li>Chain-of-Thought Reasoning@<a href="http://cips-cl.org/static/CCL2025/cclProgram/frontier/index.html" target="_blank">CCL2025</a></li>
+      <li>How to start your research@<a href="http://tcci.ccf.org.cn/conference/2023/studentinfo.php" target="_blank">NLPCC2023</a></li>
+      <li>Spoken Language Understanding: Recent Advances and New Frontiers@<a href="https://slututorial.github.io/" target="_blank">IJCAI2022 Tutorial</a></li>
+    </ul>
+  </div>
+
+
+  <h3><a name="supervised"></a>Supervised / Co-supervised Alumni (Partial)</h3>
+  <ul>
+  <li><a href="https://looperxx.github.io/" target="_blank">Xiao Xu</a> (PhD Student in HIT, now in Tongyi Qianwen@Alibaba)</li>
+  <li><a href="https://scholar.google.com/citations?hl=zh-CN&user=bkeyeAIAAAAJ" target="_blank">Fuxuan Wei</a> (Master Student in HIT, now in Kuaishou STAR@ Kuaishou Technology)</li>
+  <li><a href="https://tianbaoxie.com/" target="_blank">Tianbao Xie</a> (Undergraduate Student in HIT, incoming OpenAI)</li>
+  <li><a href="https://lightchen233.github.io/" target="_blank">Qiguang Chen</a>（Undergraduate Student in HIT, now in HIT）</li>
+  <li><a href="https://luxuriant0116.github.io/" target="_blank">Lehan Wang</a> (Undergraduate Student in HIT, now in HKUST)</li>
+  </ul>
+
+
+  <h3><a name="publications"></a>Selected Publications</h3> 
+  <ul>
+
+    <li>
+      <div id="text" style = "color:#1f57b8">CCHall: A Novel Benchmark for Joint Cross-Lingual and Cross-Modal Hallucinations Detection in Large Language Models.</div>
+      Yongheng Zhang, Xu Liu, Ruoxi Zhou, Qiguang Chen, Hao Fei, Wenpeng Lu, <strong>Libo Qin*</strong>
+      <br>ACL 2025 Main (CCF A)
+      [<a href="https://aclanthology.org/2025.acl-long.1485/">Paper</a>]
+      [<a href="https://github.com/BRZ911/CCHall">Code</a>]
+    </li>
+    <p> </p>
+
+    <li>
+      <div id="text" style = "color:#1f57b8">What are the essential factors in crafting effective long context multi-hop instruction datasets? insights and best practices.</div>
+      Zhi Chen, Qiguang Chen, <strong>Libo Qin*</strong>, Qipeng Guo, Haijun Lv, Yicheng Zou, Hang Yan, Kai Chen, Dahua Lin
+      <br>ACL 2025 Main (CCF A)
+      [<a href="https://aclanthology.org/2025.acl-long.1316/">Paper</a>]
+      [<a href="https://github.com/WowCZ/LongMIT">Code</a>]
+    </li>
+    <p> </p>
+
+    <li>
+      <div id="text" style = "color:#1f57b8">Unlocking the capabilities of thought: A reasoning boundary framework to quantify and optimize chain-of-thought.</div>
+      Qiguang Chen, <strong>Libo Qin*</strong>, Jiaqi Wang, Jingxuan Zhou, Wanxiang Che*
+      <br>NeurIPS 2025 (CCF A)
+      [<a href="https://neurips.cc/virtual/2024/poster/93575">Paper</a>]
+      [<a href="https://github.com/LightChen233/reasoning-boundary">Code</a>]
+    </li>
+    <p> </p>
+
+    <li>
+      <div id="text" style = "color:#1f57b8">CoMT: A Novel Benchmark for Chain of Multi-modal Thought on Large Vision-Language Models.</div>
+      Zihui Cheng, Qiguang Chen, Jin Zhang, Hao Fei, Xiaocheng Feng, Wanxiang Che, Min Li, <strong>Libo Qin*</strong>
+      <br>AAAI 2025 (CCF A)
+      [<a href="https://ojs.aaai.org/index.php/AAAI/article/view/34538">Paper</a>]
+      [<a href="https://github.com/LightChen233/reasoning-boundary">Code</a>]
+    </li>
+    <p> </p>
+
+    <li>
+      <div id="text" style = "color:#1f57b8">M<sup>3</sup>CoT: A Novel Benchmark for Multi-Domain Multi-step Multi-modal Chain-of-Thought.</div>
+      Qiguang Chen, <strong>Libo Qin*</strong>, Jin Zhang, Zhi Chen, Xiao Xu, Wanxiang Che*
+      <br>ACL 2024 Main (CCF A)
+      [<a href="https://aclanthology.org/2024.acl-long.446/">Paper</a>]
+      [<a href="https://github.com/LightChen233/M3CoT">Code</a>]
+    </li>
+    <p> </p>
+
+    <li>
+      <div id="text" style = "color:#1f57b8">End-to-end Task-oriented Dialogue: A Survey of Tasks, Methods, and Future Directions.</div>
+      <strong>Libo Qin</strong>, Wenbo Pan, Qiguang Chen, Lizi Liao, Zhou Yu, Yue Zhang, Wanxiang Che, Min Li
+      <br>EMNLP2023 (CAAI A)
+      [<a href="https://aclanthology.org/2023.emnlp-main.363/">Paper</a>]
+      [<a href="https://github.com/wbopan/Awesome-EToDs-Survey">Website</a>]
+    </li>
+    <p> </p>
+
+    <li>
+      <div id="text" style = "color:#1f57b8">A Global-Local Contrastive Learning Framework for Cross-lingual Spoken Language Understanding.</div>
+      <strong>Libo Qin</strong>, Qiguang Chen, Tianbao Xie, Qixin Li, Jian-Guang Lou, Wanxiang Che, Min-Yen Kan
+      <br>ACL 2022 Main (CCF A)
+      [<a href="https://aclanthology.org/2022.acl-long.191/">Paper</a>]
+      [<a href="https://github.com/LightChen233/GL-CLeF">Code</a>]
+    </li>
+    <p> </p>
+
+    <li>
+      <div id="text" style = "color:#1f57b8">GL-GIN: Fast and Accurate Non-Autoregressive Model for Joint Multiple Intent Detection and Slot Filling.</div>
+      <strong>Libo Qin</strong>, Fuxuan Wei, Tianbao Xie, Xiao Xu, Wanxiang Che, Ting Liu
+      <br>ACL 2021 Main (CCF A)
+      [<a href="https://aclanthology.org/2021.acl-long.15/">Paper</a>]
+      [<a href="https://github.com/qinlibo-hit/GL-GIN">Code</a>]
+    </li>
+    <p> </p>
+
+    <li>
+      <div id="text" style = "color:#1f57b8">Don't be Contradicted with Anything! CI-ToD: Towards Benchmarking Consistency for Task-oriented Dialogue System.</div>
+      <strong>Libo Qin</strong>, Tianbao Xie, Shĳue Huang, Qiguang Chen, Xiao Xu, Wanxiang Che
+      <br>EMNLP 2021 (CAAI A)
+      [<a href="https://aclanthology.org/2021.emnlp-main.182/">Paper</a>]
+      [<a href="https://github.com/qinlibo-hit/CI-ToD">Code</a>]
+    </li>
+    <p> </p>
+
+    <li>
+      <div id="text" style = "color:#1f57b8">Dynamic Fusion Network for Multi-Domain End-to-end Task-Oriented Dialog.</div>
+      <strong>Libo Qin</strong>, Xiao Xu, Wanxiang Che, Yue Zhang, Ting Liu
+      <br>ACL 2020 Main (CCF A)
+      [<a href="https://aclanthology.org/2020.acl-main.565/">Paper</a>]
+      [<a href="https://github.com/LooperXX/DF-Net">Code</a>]
+    </li>
+    <p> </p>
+
+  </ul>
+</div>
+
+
+
+<div id='footer'>
+  <p style="text-align:center;">Refer to <a href="https://isakzhang.github.io/index.html">Wenxuan's homepage</a>, last updated: Oct. 2025</p>
+</div>
+
+</body>
+
+</html>
