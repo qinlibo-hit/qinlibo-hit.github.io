@@ -1,22 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
-
-
+<html lang="zh-CN">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <title> Libo Qin's Homepage </title>
+  <title>覃立波 | 个人主页</title>
   <meta name="author" content="Libo Qin">
-  <meta name="keywords" content="Libo Qin, 覃立波, Libo Qin HIT-SZ, NLP">
+  <meta name="keywords" content="覃立波, Libo Qin, HIT-SZ, NLP, LLM">
   <meta name="robots" content="index,follow">
-  <meta name="description" content="Homepage of Libo Qin">
+  <meta name="description" content="覃立波个人主页">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./styles.css">
-  <link href='https://fonts.googleapis.com/css?family=PT+Serif:400,700,400italic' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-134238626-1"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
@@ -26,216 +22,394 @@
 </head>
 
 <body>
-  <div class="container content"> 
-  <main>
-  <div class="home">
+  <svg xmlns="http://www.w3.org/2000/svg" style="display:none" aria-hidden="true">
+    <symbol id="i-compass" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M15.5 8.5l-2 5-5 2 2-5z"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3.5" y="5.5" width="17" height="13" rx="2"/><path d="M4 7l8 6 8-6"/></symbol>
+    <symbol id="i-link" viewBox="0 0 24 24">
+      <path d="M10 14a4.5 4.5 0 0 0 6.4 0l3-3a4.5 4.5 0 0 0-6.4-6.4l-1.5 1.5"
+            fill="none" stroke="currentColor" stroke-width="1.8"
+            stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3 3a4.5 4.5 0 0 0 6.4 6.4l1.5-1.5"
+            fill="none" stroke="currentColor" stroke-width="1.8"
+            stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="i-users" viewBox="0 0 24 24"><circle cx="9" cy="8.5" r="3.5"/><path d="M3.5 19.5c0-3 2.5-5 5.5-5s5.5 2 5.5 5"/><circle cx="17" cy="9.5" r="2.5"/><path d="M16.5 14.5c2.5 0 4.5 1.8 4.5 4"/></symbol>
+    <!-- <symbol id="i-book" viewBox="0 0 24 24"><path d="M4.5 5.5A2 2 0 016.5 3.5H19.5v15H6.5a2 2 0 00-2 2z"/><path d="M4.5 18.5a2 2 0 012-2H19.5"/></symbol> -->
+    <symbol id="i-book" viewBox="0 0 24 24">
+      <path d="M4.5 5.5A2 2 0 0 1 6.5 3.5H19.5v15H6.5a2 2 0 0 0-2 2z"
+            fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+      <path d="M4.5 18.5a2 2 0 0 1 2-2H19.5"
+            fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    </symbol>
+    <symbol id="i-cap" viewBox="0 0 24 24"><path d="M2.5 9.5L12 5l9.5 4.5L12 14z"/><path d="M6.5 11.5v4.5c0 1.5 2.5 3 5.5 3s5.5-1.5 5.5-3v-4.5"/><path d="M21.5 9.5v5"/></symbol>
+    <symbol id="i-award" viewBox="0 0 24 24"><circle cx="12" cy="9" r="5.5"/><path d="M8.5 13.5L7 20.5l5-2.5 5 2.5-1.5-7"/></symbol>
+    <symbol id="i-star" viewBox="0 0 24 24"><path d="M12 3.5l2.6 5.3 5.9.9-4.3 4.1 1 5.8L12 16.9l-5.2 2.7 1-5.8-4.3-4.1 5.9-.9z"/></symbol>
+    <symbol id="i-briefcase" viewBox="0 0 24 24"><rect x="3.5" y="7.5" width="17" height="12" rx="2"/><path d="M9 7.5V6a2 2 0 012-2h2a2 2 0 012 2v1.5"/><path d="M3.5 12.5h17"/></symbol>
+    <symbol id="i-pdf" viewBox="0 0 24 24">
+      <path
+        d="M7 3.5h7.6L19 7.9v10.6a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2v-13a2 2 0 0 1 2-2z"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="1.6"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+      <path
+        d="M14.6 3.5V8h4.4"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="1.6"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+      <text
+        x="12"
+        y="16.5"
+        text-anchor="middle"
+        font-size="5.2"
+        font-weight="700"
+        font-family="Arial, Helvetica, sans-serif"
+        fill="currentColor"
+      >PDF</text>
+    </symbol>
+    <symbol id="i-github" viewBox="0 0 24 24"><path d="M12 3.8a8.5 8.5 0 00-2.7 16.6c.4.1.5-.2.5-.4v-1.5c-2.2.5-2.7-.9-2.7-.9-.4-.9-.9-1.2-.9-1.2-.7-.5.1-.5.1-.5.8.1 1.2.8 1.2.8.7 1.1 1.9.8 2.3.6.1-.5.3-.8.5-1-1.8-.2-3.7-.9-3.7-4a3.1 3.1 0 01.8-2.2 2.9 2.9 0 01.1-2.2s.7-.2 2.3.8a7.9 7.9 0 014.2 0c1.6-1 2.3-.8 2.3-.8a2.9 2.9 0 01.1 2.2 3.1 3.1 0 01.8 2.2c0 3.1-1.9 3.8-3.7 4 .3.2.5.7.5 1.4V20c0 .2.1.5.5.4A8.5 8.5 0 0012 3.8z"/></symbol>
+    <symbol id="i-play" viewBox="0 0 24 24">
+      <path d="M4 7.5A2.5 2.5 0 0 1 6.5 5h7A2.5 2.5 0 0 1 16 7.5v9A2.5 2.5 0 0 1 13.5 19h-7A2.5 2.5 0 0 1 4 16.5z"/>
+      <path d="M16 10l4-2.5v9L16 14z"/>
+    </symbol>
+  </svg>
 
-  <div class="mini-intro">
-  <img class="avatar" src="img/libo-qin-2025-square.jpg" alt="libo-qin-photo">
+  <div class="page-shell">
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="#top">
+          <img class="brand-logo" src="img/HIT-logo.png" alt="哈尔滨工业大学校徽">
+          <span class="brand-text">
+            <span class="brand-name">覃立波</span>
+            <span class="brand-subtitle">Libo Qin</span>
+          </span>
+        </a>
+        <nav class="site-nav" aria-label="主导航">
+          <a href="#about">个人简介</a>
+          <a href="#join-us">加入我们</a>
+          <a href="#mentorship">学生指导</a>
+          <a href="#honors">学生近期荣誉</a>
+          <a href="#books">著作</a>
+          <a href="#publications">论文发表</a>
+          <a href="index_en.html" title="English Homepage">英文主页</a>
+        </nav>
+      </div>
+    </header>
 
-  <h1 id="libo_qin"><span style="font-family:STFangsong">覃立波</span></h1>
-  
-  <code class="language-plaintext highlighter-rouge">qinlibo [at] hit.edu.cn</code>
-  <br>
-  <br>副教授
-  <br>计算机科学与技术学院/计算与智能研究院
-  <br>哈尔滨工业大学（深圳）
+    <main id="top" class="main-content">
+      <section class="hero-plain">
+        <div class="hero-copy">
+          <h1>覃立波<span class="name-en">Libo Qin</span></h1>
+          <p class="hero-affil">副教授 · 博士生导师</p>
+          <p class="hero-affil-sub">哈尔滨工业大学（深圳）计算机科学与技术学院</p>
+          <p class="hero-email-row"><code class="language-plaintext highlighter-rouge hero-email" style="display:inline-flex;align-items:center;margin:0;padding:0.28em 0.52em 0.3em;border:0;border-radius:8px;background:#f4f2f2;color:#c7636d;font-family:Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;font-size:0.9rem;font-weight:400;letter-spacing:0;line-height:1;white-space:nowrap;">qinlibo [at] hit.edu.cn</code></p>
 
-  <br><br><a href="https://scholar.google.com/citations?hl=en&user=8lVpK1QAAAAJ">Google Scholar</a> | <a href="index_en.html"><span style="font-family:STFangsong">英文主页</span></a>
+        </div>
+        <div class="hero-media">
+          <img class="profile-photo" src="img/libo-qin-2025-circle3.png" alt="覃立波">
 
-  <br><br>
+        </div>
+      </section>
 
-  <div id="menu">
-    <div>
-      <a href="#about">关于</a>
-    </div>
-    <div>
-      <a href="#join_us">加入我们</a>
-    </div>
-    <div>
-      <a href="#talks">报告</a>
-    </div>
-    <div>
-      <a href="#supervised">Alumni</a>
-    </div>
-    <div>
-      <a href="#publications">发表论文</a>
-    </div>
-    <script>
-      $(function () {
-        const current = window.location.pathname.split("/");
-        $('#menu div a').each(function(){
-          const $this = $(this);
-          // if the current path is like this link, make it active
-          if (current.indexOf($this.attr("href")) !== -1) {
-            $this.parent().addClass("now");
-          }
-        })
-      });
-    </script>
+      <section id="about" class="section-block">
+        <div class="section-heading">
+          <h2>个人简介</h2>
+        </div>
+        <div class="about-body content-card">
+          <p>
+            覃立波，哈尔滨工业大学（深圳）计算机科学与技术学院 / 计算与智能研究院副教授、博士生导师、小米青年学者。现任中国中文信息学会青工委秘书长。主要研究兴趣为自然语言处理、大模型推理、大模型智能体等，在人工智能及自然语言处理等领域国际期刊 / 会议 TPAMI、NeurIPS、ICLR、ICML、ACL 上发表论文多篇。
+          </p>
+          <p>
+            研究成果曾入选 Paper Digest 高影响力论文，并获得世界人工智能大会青年优秀论文提名和 EMNLP 2022 MMNLU Workshop 最佳论文奖。入选中国科协青年人才托举工程、斯坦福“全球前 2% 顶尖科学家”榜单、首届字节跳动奖学金、全球 AI 华人百强新星等。长期担任 NeurIPS、ICLR、ACL、EMNLP 等国际会议（高级）领域主席。（协助）指导多名学生获得中国科协青年科技人才培育工程博士生专项计划、CCF 优秀大学生、国家奖学金、港府奖学金等。
+          </p>
+        </div>
+      </section>
+
+      <section id="join-us" class="section-block">
+        <div class="section-heading">
+          <h2>加入我们</h2>
+        </div>
+        <div class="recruit-panel">
+          <div class="recruit-tier recruit-tier-intro">
+            <div class="recruit-tier-head">
+              <!-- <p class="recruit-tier-label">Part I</p> -->
+              <h3 class="recruit-tier-title">招收类型</h3>
+            </div>
+            <p class="recruit-lead">课题组长期招收以下类型学生。联系方式：<a class="recruit-cta-mail" href="mailto:qinlibo@hit.edu.cn"><svg class="icon"><use href="#i-mail"/></svg>qinlibo [at] hit.edu.cn</a></p>
+            <div class="recruit-slots">
+              <div class="recruit-slot">
+                <svg class="icon"><use href="#i-book"/></svg>
+                <span>博士研究生</span>
+              </div>
+              <div class="recruit-slot">
+                <svg class="icon"><use href="#i-cap"/></svg>
+                <span>硕士研究生</span>
+              </div>
+              <div class="recruit-slot">
+                <svg class="icon"><use href="#i-briefcase"/></svg>
+                <span>博士后</span>
+              </div>
+              <div class="recruit-slot">
+                <svg class="icon"><use href="#i-star"/></svg>
+                <span>科研实习生（本科及以上）</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="recruit-tier recruit-tier-detail">
+            <div class="recruit-tier-head">
+              <!-- <p class="recruit-tier-label">Part II</p> -->
+              <h3 class="recruit-tier-title">要求与支持</h3>
+            </div>
+            <div class="recruit-cols">
+              <div class="recruit-col">
+                <h4>招生要求</h4>
+                <ul class="feature-list">
+                  <li>具备较强自驱力，能主动推进研究工作。</li>
+                  <li>对科研有稳定、持续的兴趣，愿意投入长期训练。</li>
+                  <li>不建议仅以获得学位为唯一目标的申请者联系。</li>
+                </ul>
+              </div>
+              <div class="recruit-col">
+                <h4>培养支持（表现优异者）</h4>
+                <ul class="feature-list">
+                  <li>优先保留本组推荐免试硕博、申请考核制博士名额。</li>
+                  <li>推荐至字节跳动、腾讯、阿里巴巴、华为等企业实习机会。</li>
+                  <li>推荐至新加坡、美国、加拿大等高校读博机会。</li>
+                  <!-- <li>有意在国内深造。</li> -->
+                </ul>
+              </div>
+            </div>
+          </div>
+<!-- 
+          <div class="recruit-tier recruit-tier-apply">
+            <div class="recruit-tier-head">
+
+              <h3 class="recruit-tier-title">申请方式</h3>
+            </div>
+            <div class="recruit-cta">
+              <span class="recruit-cta-label">申请方式</span>
+              <a class="recruit-cta-mail" href="mailto:qinlibo@hit.edu.cn"><svg class="icon"><use href="#i-mail"/></svg>qinlibo [at] hit.edu.cn</a>
+              <span class="recruit-cta-hint">来信请注明申请类型，并附上简历及相关材料。</span>
+            </div>
+          </div> -->
+        </div>
+      </section>
+
+      <section id="mentorship" class="section-block">
+        <div class="section-heading">
+          <h2>学生指导（部分）</h2>
+        </div>
+        <div class="mentee-roll">
+          <article class="mentee-row">
+            <img class="mentee-avatar" src="img/mentee-xiaoxu.png" alt="Xiao Xu">
+            <div class="mentee-body">
+              <h3><a href="https://looperxx.github.io/" target="_blank" rel="noreferrer">徐啸</a></h3>
+              <span class="mentee-role">博士 · 哈尔滨工业大学</span>
+              <p>现入职阿里巴巴通义千问实验室。</p>
+            </div>
+          </article>
+          <article class="mentee-row">
+            <img class="mentee-avatar" src="img/mentee-fuxuan.jpg" alt="Fuxuan Wei">
+            <div class="mentee-body">
+              <h3><a href="https://scholar.google.com/citations?hl=zh-CN&user=bkeyeAIAAAAJ" target="_blank" rel="noreferrer">魏福煊</a></h3>
+              <span class="mentee-role">硕士 · 哈尔滨工业大学</span>
+              <p>现入职快手科技，入选快 STAR 计划。</p>
+            </div>
+          </article>
+          <article class="mentee-row">
+            <img class="mentee-avatar" src="img/mentee-tianbao.jpg" alt="Tianbao Xie">
+            <div class="mentee-body">
+              <h3><a href="https://tianbaoxie.com/" target="_blank" rel="noreferrer">谢天宝</a></h3>
+              <span class="mentee-role">本科 · 哈尔滨工业大学</span>
+              <p>即将入职 Meta，获港府奖学金。</p>
+            </div>
+          </article>
+          <article class="mentee-row">
+            <img class="mentee-avatar" src="img/mentee-qiguang.png" alt="Qiguang Chen">
+            <div class="mentee-body">
+              <h3><a href="https://lightchen233.github.io/" target="_blank" rel="noreferrer">陈麒光</a></h3>
+              <span class="mentee-role">本科 · 哈尔滨工业大学</span>
+              <p>现于哈尔滨工业大学攻读博士，入选中国科协青年人才培养工程博士专项。</p>
+            </div>
+          </article>
+          <article class="mentee-row">
+            <img class="mentee-avatar" src="img/mentee-lehan.jpg" alt="Lehan Wang">
+            <div class="mentee-body">
+              <h3><a href="https://luxuriant0116.github.io/" target="_blank" rel="noreferrer">王乐涵</a></h3>
+              <span class="mentee-role">本科 · 哈尔滨工业大学</span>
+              <p>现于香港科技大学攻读博士，获港府奖学金。</p>
+            </div>
+          </article>
+        </div>
+        <!-- <p class="mentorship-note">
+          围绕自然语言处理、大模型推理、多模态与任务型对话等方向开展研究训练，强调问题意识、实验严谨性与长期学术成长。
+        </p> -->
+      </section>
+
+      <section id="honors" class="section-block">
+        <div class="section-heading">
+          <h2>学生近期荣誉</h2>
+        </div>
+        <div class="honor-panel honor-panel-timeline">
+          <div class="honor-timeline honor-timeline-news">
+            <article class="honor-timeline-row">
+              <span class="honor-time">2026</span>
+              <span class="honor-award"><strong>张宸源</strong> 获得2026年黑龙江省优秀毕业生。</span>
+            </article>
+            <article class="honor-timeline-row">
+              <span class="honor-time">2025</span>
+              <span class="honor-award"><strong>陈麒光</strong> 入选中国科协青年科技人才培育工程博士生专项计划。</span>
+            </article>
+            <article class="honor-timeline-row">
+              <span class="honor-time">2025</span>
+              <span class="honor-award"><strong>陈麒光</strong> 获得2024-2025学年国家奖学金。</span>
+            </article>
+            <article class="honor-timeline-row">
+              <span class="honor-time">2025</span>
+              <span class="honor-award"><strong>张宸源</strong> 获得腾讯奖学金。</span>
+            </article>           
+            <article class="honor-timeline-row">
+              <span class="honor-time">2025</span>
+              <span class="honor-award"><strong>邱琼林</strong> 获得2025年CCF优秀大学生。</span>
+            </article>
+          </div>
+        </div>
+          
+      </section>
+
+      <section id="books" class="section-block">
+        <div class="section-heading">
+          <h2>出版译著</h2>
+        </div>
+        <div class="book-grid">
+          <article class="book-card">
+            <figure class="book-cover">
+              <img src="img/book1.png" alt="《从零构建大模型》封面" loading="lazy">
+            </figure>
+            <div class="book-body">
+              <h3>从零构建大模型</h3>
+              <p class="book-desc">围绕大语言模型的核心机制与工程实现，从文本处理、注意力机制、模型训练到微调实践逐步展开，适合希望通过动手从零实现理解 LLM 原理与工作流程的初学者。</p>
+              <div class="publication-meta">
+                <!-- <a class="link-chip" href="https://m.douban.com/book/subject/37305124/" target="_blank" rel="noreferrer"><svg class="icon"><use href="#i-book"/></svg>豆瓣主页</a> -->
+                <!-- <a class="link-chip" href="https://github.com/MLNLP-World/LLMs-from-scratch-CN" target="_blank" rel="noreferrer"><svg class="icon"><use href="#i-link"/></svg>书籍资源</a>
+                <a class="link-chip" href="https://www.youtube.com/watch?v=yAcWnfsZhzo&list=PLTKMiZHVd_2IIEsoJrWACkIxLRdfMlw11" target="_blank" rel="noreferrer"><svg class="icon"><use href="#i-play"/></svg>配套视频</a> -->
+                  <a class="link-chip chip-yellow" href="https://github.com/MLNLP-World/LLMs-from-scratch-CN" target="_blank" rel="noreferrer"><svg class="icon"><use href="#i-link"/></svg>书籍资源</a>
+                <a class="link-chip chip-red" href="https://www.youtube.com/watch?v=yAcWnfsZhzo&list=PLTKMiZHVd_2IIEsoJrWACkIxLRdfMlw11" target="_blank" rel="noreferrer"><svg class="icon"><use href="#i-play"/></svg>配套视频</a>
+              </div>
+            </div>
+          </article>
+          <article class="book-card">
+            <figure class="book-cover">
+              <img src="img/book2.png" alt="《自然语言处理：基于机器学习视角》封面" loading="lazy">
+            </figure>
+            <div class="book-body">
+              <h3>自然语言处理：基于机器学习视角</h3>
+              <p class="book-desc">从机器学习视角系统梳理现代自然语言处理方法，覆盖基础建模、表示学习、深度学习与预训练范式，适合作为对自然语言领域感兴趣的本科高年级、研究生课程及科研入门参考。</p>
+              <div class="publication-meta">
+                <!-- <a class="link-chip" href="https://m.douban.com/book/subject/36865863/" target="_blank" rel="noreferrer"><svg class="icon"><use href="#i-book"/></svg>豆瓣主页</a> -->
+                <!-- <a class="link-chip" href="https://westlakenlp.github.io/nlpml/" target="_blank" rel="noreferrer"><svg class="icon"><use href="#i-link"/></svg>书籍资源</a>
+                <a class="link-chip" href="https://www.bilibili.com/video/BV1Fv411G7bR/" target="_blank" rel="noreferrer"><svg class="icon"><use href="#i-play"/></svg>配套视频</a> -->
+                <a class="link-chip chip-yellow" href="https://westlakenlp.github.io/nlpml/" target="_blank" rel="noreferrer"><svg class="icon"><use href="#i-link"/></svg>书籍资源</a>
+                <a class="link-chip chip-red" href="https://www.bilibili.com/video/BV1Fv411G7bR/" target="_blank" rel="noreferrer"><svg class="icon"><use href="#i-play"/></svg>配套视频</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="publications" class="section-block">
+        <div class="section-heading">
+          <h2>部分发表论文</h2>
+        </div>
+        <div class="publication-list">
+          <article class="publication-item">
+            <figure class="publication-figure">
+              <img src="img/pub-longcot.jpg" alt="Long CoT Survey 论文图示" loading="lazy">
+            </figure>
+          
+            <div class="publication-body">
+              <h3>Towards Reasoning Era: A Survey of Long Chain-of-Thought for Reasoning Large Language Models.</h3>
+          
+              <p class="publication-authors">
+                Qiguang Chen, <strong>Libo Qin*</strong>, Jinhao Liu, Dengyun Peng, Jiannan Guan,
+                Peng Wang, Mengkang Hu, Yuhang Zhou, Te Gao, Wanxiang Che*
+              </p>
+          
+              <div class="publication-meta">
+                <span class="venue-badge">SCIS 2026 · CCF A</span>
+          
+                <a class="link-chip" href="https://link.springer.com/content/pdf/10.1007/s11432-025-4665-8.pdf" target="_blank" rel="noreferrer"><svg class="icon"><use href="#i-pdf"/></svg>PDF</a>
+                <a class="link-chip" href="https://github.com/LightChen233/Awesome-Long-Chain-of-Thought-Reasoning" target="_blank" rel="noreferrer"><svg class="icon"><use href="#i-github"/></svg>Code</a>
+              </div>
+            </div>
+          </article>
+          <article class="publication-item">
+            <figure class="publication-figure">
+              <img src="img/pub-cchall.png" alt="CCHall 论文图示" loading="lazy">
+            </figure>
+            <div class="publication-body">
+              <h3>CCHall: A Novel Benchmark for Joint Cross-Lingual and Cross-Modal Hallucinations Detection in Large Language Models.</h3>
+              <p class="publication-authors">Yongheng Zhang, Xu Liu, Ruoxi Zhou, Qiguang Chen, Hao Fei, Wenpeng Lu, <strong>Libo Qin*</strong></p>
+              <div class="publication-meta">
+                <span class="venue-badge">ACL 2025 Main · CCF A</span>
+                <a class="link-chip" href="https://aclanthology.org/2025.acl-long.1485/" target="_blank" rel="noreferrer"><svg class="icon"><use href="#i-pdf"/></svg>PDF</a>
+                <a class="link-chip" href="https://github.com/BRZ911/CCHall" target="_blank" rel="noreferrer"><svg class="icon"><use href="#i-github"/></svg>Code</a>
+              </div>
+            </div>
+          </article>
+          <article class="publication-item">
+            <figure class="publication-figure">
+              <img src="img/pub-longmit.png" alt="LongMIT 论文图示" loading="lazy">
+            </figure>
+            <div class="publication-body">
+              <h3>What are the essential factors in crafting effective long context multi-hop instruction datasets? Insights and best practices.</h3>
+              <p class="publication-authors">Zhi Chen, Qiguang Chen, <strong>Libo Qin*</strong>, Qipeng Guo, Haijun Lv, Yicheng Zou, Hang Yan, Kai Chen, Dahua Lin</p>
+              <div class="publication-meta">
+                <span class="venue-badge">ACL 2025 Main · CCF A</span>
+                <a class="link-chip" href="https://aclanthology.org/2025.acl-long.1316/" target="_blank" rel="noreferrer"><svg class="icon"><use href="#i-pdf"/></svg>PDF</a>
+                <a class="link-chip" href="https://github.com/WowCZ/LongMIT" target="_blank" rel="noreferrer"><svg class="icon"><use href="#i-github"/></svg>Code</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="publication-item">
+            <figure class="publication-figure">
+              <img src="img/pub-comt.png" alt="CoMT 论文图示" loading="lazy">
+            </figure>
+            <div class="publication-body">
+              <h3>CoMT: A Novel Benchmark for Chain of Multi-modal Thought on Large Vision-Language Models.</h3>
+              <p class="publication-authors">Zihui Cheng, Qiguang Chen, Jin Zhang, Hao Fei, Xiaocheng Feng, Wanxiang Che, Min Li, <strong>Libo Qin*</strong></p>
+              <div class="publication-meta">
+                <span class="venue-badge">AAAI 2025 · CCF A</span>
+                <a class="link-chip" href="https://ojs.aaai.org/index.php/AAAI/article/view/34538" target="_blank" rel="noreferrer"><svg class="icon"><use href="#i-pdf"/></svg>PDF</a>
+                <a class="link-chip" href="https://github.com/czhhzc/CoMT" target="_blank" rel="noreferrer"><svg class="icon"><use href="#i-github"/></svg>Code</a>
+              </div>
+            </div>
+          </article>
+          <article class="publication-item">
+            <figure class="publication-figure">
+              <img src="img/pub-rb.png" alt="Reasoning Boundary 论文图示" loading="lazy">
+            </figure>
+            <div class="publication-body">
+              <h3>Unlocking the capabilities of thought: A reasoning boundary framework to quantify and optimize chain-of-thought.</h3>
+              <p class="publication-authors">Qiguang Chen, <strong>Libo Qin*</strong>, Jiaqi Wang, Jingxuan Zhou, Wanxiang Che*</p>
+              <div class="publication-meta">
+                <span class="venue-badge">NeurIPS 2024 (Oral) · CCF A</span>
+                <a class="link-chip" href="https://neurips.cc/virtual/2024/poster/93575" target="_blank" rel="noreferrer"><svg class="icon"><use href="#i-pdf"/></svg>PDF</a>
+                <a class="link-chip" href="https://github.com/LightChen233/reasoning-boundary" target="_blank" rel="noreferrer"><svg class="icon"><use href="#i-github"/></svg>Code</a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </section>
+    </main>
   </div>
-  <!--end of Navigation bar-->
-  
-  <h3><a name="bio", id="about"></a>关于</h3>
-  覃立波，哈尔滨工业大学（深圳）计算机科学与技术学院/计算与智能研究院副教授、博士生导师。现任中国中文信息学会青工委秘书长。主要研究兴趣为自然语言处理、大模型推理等，在人工智能及自然语言处理等领域国际期刊/会议TPAMI、NeurIPS、ACL、EMNLP、AAAI上发表论文多篇。
-  <br> 研究成果曾入选Paper Digest高影响力论文及获得世界人工智能大会青年优秀论文提名和EMNLP2022 MMNLU Workshop最佳论文奖。入选斯坦福“全球前2%顶尖科学家”榜单、全球 AI 华人百强新星等。担任ICLR、ACL、EMNLP、NAACL、AAAI、IJCAI等国际会议（高级）领域主席或高级程序委员会委员。（协助）指导多名学生获得中国科协青年科技人才培育工程博士生专项计划、CCF优秀大学生、国家奖学金、港府奖学金等。 
-
-  <h3><a id="join_us"></a>加入我们</h3>
-<div style="margin-bottom: 8px;">
-  <strong>🎯 招收范围：</strong>
-  <ul style="margin: 4px 0;">
-    <li>大模型推理、智能体等相关研究方向</li>
-    <li>硕士 / 博士 / RA</li>
-  </ul>
-</div>
-
-<div style="margin-bottom: 8px;">
-  <strong>👤 招生要求：</strong>
-  <ul style="margin: 4px 0;">
-    <li><strong>自驱力强</strong>，积极主动</li>
-    <li>对科研具有浓厚兴趣</li>
-    <li><strong>不建议仅以获得学位为目标的同学申请</strong></li>
-  </ul>
-</div>
-
-<div style="margin-bottom: 8px;">
-  <strong>🌟 培养支持：</strong>
-  <ul style="margin: 4px 0;">
-    <li>表现优异的同学可推荐至 <strong>腾讯</strong>、<strong>百度</strong>、<strong>阿里巴巴</strong>、<strong>华为</strong> 等企业实习</li>
-    <li>有意出国读博的同学，可推荐至 <strong>新加坡</strong>、<strong>美国</strong>、<strong>加拿大</strong> 等知名高校</li>
-  </ul>
-</div>
-<div style="margin-top: 10px;">
-  <strong>📧 联系方式：</strong> qinlibo [at] hit.edu.cn (本科科研实习、硕士博士申请者请在邮件中进行标注并附上简历，如我仍有招生名额，我会尽快回复。  
-
-)
-</div>
-
-  <h3 id="talks">报告（部分）</h3>
-  <div style="max-height: 300px; overflow-y: auto;">
-<ul>
-  <li>大模型思维链推理@<a href="http://cips-cl.org/static/CCL2025/cclProgram/frontier/index.html" target="_blank">CCL2025</a></li>
-  <li>浅谈论文调研与研究方法@<a href="http://tcci.ccf.org.cn/conference/2023/studentinfo.php" target="_blank">NLPCC2023</a></li>
-  <li>对话语言理解前沿进展报告@<a href="https://slututorial.github.io/" target="_blank">IJCAI2022 Tutorial</a></li>
-</ul>
-
-  </div>
-
-  <h3><a name="supervised"></a>指导 / 共同指导的Alumni（部分）</h3>
-  <ul>
-  <li><a href="https://looperxx.github.io/" target="_blank">徐啸</a>（哈尔滨工业大学博士生，入职阿里巴巴，<span style="color:#C7924A; font-weight:600;">通义千问实验室</span>）</li>
-
-<li><a href="https://scholar.google.com/citations?hl=zh-CN&user=bkeyeAIAAAAJ" target="_blank">魏福煊</a>（哈尔滨工业大学硕士生，入职快手科技，<span style="color:#C7924A; font-weight:600;">快STAR计划</span>）</li>
-
-<li><a href="https://tianbaoxie.com/" target="_blank">谢天宝</a>（哈尔滨工业大学本科生，即将入职OpenAI<span style="color:#C7924A; font-weight:600;"></span>，<span style="color:#C7924A; font-weight:600;">港府奖学金</span>）</li>
-
-<li><a href="https://lightchen233.github.io/" target="_blank">陈麒光</a>（哈尔滨工业大学本科生，现就读于哈尔滨工业大学攻读博士，<span style="color:#C7924A; font-weight:600;">中国科协青托博士生专项</span>）</li>
-
-<li><a href="https://luxuriant0116.github.io/" target="_blank">王乐涵</a>（哈尔滨工业大学本科生，现就读于香港科技大学攻读博士，<span style="color:#C7924A; font-weight:600;">港府奖学金</span>）</li>
-  </ul>
-
-
-  <h3><a name="publications"></a>部分发表论文</h3>
-  <ul>
-
-    <li>
-      <div id="text" style = "color:#1f57b8">CCHall: A Novel Benchmark for Joint Cross-Lingual and Cross-Modal Hallucinations Detection in Large Language Models.</div>
-      Yongheng Zhang, Xu Liu, Ruoxi Zhou, Qiguang Chen, Hao Fei, Wenpeng Lu, <strong>Libo Qin*</strong>
-      <br>ACL 2025 Main (CCF A)
-      [<a href="https://aclanthology.org/2025.acl-long.1485/">Paper</a>]
-      [<a href="https://github.com/BRZ911/CCHall">Code</a>]
-    </li>
-    <p> </p>
-
-    <li>
-      <div id="text" style = "color:#1f57b8">What are the essential factors in crafting effective long context multi-hop instruction datasets? insights and best practices.</div>
-      Zhi Chen, Qiguang Chen, <strong>Libo Qin*</strong>, Qipeng Guo, Haijun Lv, Yicheng Zou, Hang Yan, Kai Chen, Dahua Lin
-      <br>ACL 2025 Main (CCF A)
-      [<a href="https://aclanthology.org/2025.acl-long.1316/">paper</a>]
-      [<a href="https://github.com/WowCZ/LongMIT">Code</a>]
-    </li>
-    <p> </p>
-
-    <li>
-      <div id="text" style = "color:#1f57b8">Unlocking the capabilities of thought: A reasoning boundary framework to quantify and optimize chain-of-thought.</div>
-      Qiguang Chen, <strong>Libo Qin*</strong>, Jiaqi Wang, Jingxuan Zhou, Wanxiang Che*
-      <br>NeurIPS 2024 (CCF A)
-      [<a href="https://neurips.cc/virtual/2024/poster/93575">Paper</a>]
-      [<a href="https://github.com/LightChen233/reasoning-boundary">Code</a>]
-    </li>
-    <p> </p>
-
-    <li>
-      <div id="text" style = "color:#1f57b8">CoMT: A Novel Benchmark for Chain of Multi-modal Thought on Large Vision-Language Models.</div>
-      Zihui Cheng, Qiguang Chen, Jin Zhang, Hao Fei, Xiaocheng Feng, Wanxiang Che, Min Li, <strong>Libo Qin*</strong>
-      <br>AAAI 2025 (CCF A)
-      [<a href="https://ojs.aaai.org/index.php/AAAI/article/view/34538">Paper</a>]
-      [<a href="https://github.com/czhhzc/CoMT">Code</a>]
-    </li>
-    <p> </p>
-
-    <li>
-      <div id="text" style = "color:#1f57b8">M<sup>3</sup>CoT: A Novel Benchmark for Multi-Domain Multi-step Multi-modal Chain-of-Thought.</div>
-      Qiguang Chen, <strong>Libo Qin*</strong>, Jin Zhang, Zhi Chen, Xiao Xu, Wanxiang Che*
-      <br>ACL 2024 Main (CCF A)
-      [<a href="https://aclanthology.org/2024.acl-long.446/">Paper</a>]
-      [<a href="https://github.com/LightChen233/M3CoT">Code</a>]
-    </li>
-    <p> </p>
-
-    <li>
-      <div id="text" style = "color:#1f57b8">End-to-end Task-oriented Dialogue: A Survey of Tasks, Methods, and Future Directions.</div>
-      <strong>Libo Qin</strong>, Wenbo Pan, Qiguang Chen, Lizi Liao, Zhou Yu, Yue Zhang, Wanxiang Che, Min Li
-      <br>EMNLP2023 (CAAI A)
-      [<a href="https://aclanthology.org/2023.emnlp-main.363/">Paper</a>]
-      [<a href="https://github.com/wbopan/Awesome-EToDs-Survey">Code</a>]
-    </li>
-    <p> </p>
-
-    <li>
-      <div id="text" style = "color:#1f57b8">A Global-Local Contrastive Learning Framework for Cross-lingual Spoken Language Understanding.</div>
-      <strong>Libo Qin</strong>, Qiguang Chen, Tianbao Xie, Qixin Li, Jian-Guang Lou, Wanxiang Che, Min-Yen Kan
-      <br>ACL 2022 Main (CCF A)
-      [<a href="https://aclanthology.org/2022.acl-long.191/">Paper</a>]
-      [<a href="https://github.com/LightChen233/GL-CLeF">Code</a>]
-    </li>
-    <p> </p>
-
-    <li>
-      <div id="text" style = "color:#1f57b8">GL-GIN: Fast and Accurate Non-Autoregressive Model for Joint Multiple Intent Detection and Slot Filling.</div>
-      <strong>Libo Qin</strong>, Fuxuan Wei, Tianbao Xie, Xiao Xu, Wanxiang Che, Ting Liu
-      <br>ACL 2021 Main (CCF A)
-      [<a href="https://aclanthology.org/2021.acl-long.15/">Paper</a>]
-      [<a href="https://github.com/qinlibo-hit/GL-GIN">Code</a>]
-    </li>
-    <p> </p>
-
-    <li>
-      <div id="text" style = "color:#1f57b8">Don't be Contradicted with Anything! CI-ToD: Towards Benchmarking Consistency for Task-oriented Dialogue System.</div>
-      <strong>Libo Qin</strong>, Tianbao Xie, Shĳue Huang, Qiguang Chen, Xiao Xu, Wanxiang Che
-      <br>EMNLP 2021 (CAAI A)
-      [<a href="https://aclanthology.org/2021.emnlp-main.182/">Paper</a>]
-      [<a href="https://github.com/qinlibo-hit/CI-ToD">Code</a>]
-    </li>
-    <p> </p>
-
-    <li>
-      <div id="text" style = "color:#1f57b8">Dynamic Fusion Network for Multi-Domain End-to-end Task-Oriented Dialog.</div>
-      <strong>Libo Qin</strong>, Xiao Xu, Wanxiang Che, Yue Zhang, Ting Liu
-      <br>ACL 2020 Main (CCF A)
-      [<a href="https://aclanthology.org/2020.acl-main.565/">Paper</a>]
-      [<a href="https://github.com/LooperXX/DF-Net">Code</a>]
-    </li>
-    <p> </p>
-
-  </ul>
-</div>
-
-
-<div id='footer'>
-  <p style="text-align:center;">Refer to <a href="https://isakzhang.github.io/index.html">Wenxuan's homepage</a>, last updated: Oct. 2025</p>
-</div>
-
 </body>
-
 </html>
