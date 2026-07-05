@@ -1033,6 +1033,7 @@ p {
 }
 
 .publication-meta a[href*="aclanthology.org"] .icon,
+.publication-meta a[href*="arxiv.org"] .icon,
 .publication-meta a[href*="neurips.cc"] .icon,
 .publication-meta a[href*="aaai.org"] .icon,
 .publication-meta a[href*="anthology"] .icon,
