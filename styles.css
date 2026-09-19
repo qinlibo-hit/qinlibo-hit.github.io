@@ -1321,10 +1321,15 @@ html:lang(zh) .mentorship-results {
     line-height: 1.75;
   }
 
-  .mentorship-results {
+  html:lang(zh) .mentorship-results {
     margin-top: 10px;
     padding-left: 17px;
     line-height: 1.75;
+    text-align: left;
+  }
+
+  .mentorship-results .mentorship-chip {
+    display: inline;
   }
 
   .mentorship-result-break {
